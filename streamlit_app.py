@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import io
-from invoice_extractor import extract_invoice
 from invoice_extractor import extract_invoice, ExtractionError
 from classifier import classify_document, DocumentType
 
